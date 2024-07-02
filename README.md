@@ -1,14 +1,14 @@
 # Flask Basics
 - Developed a basic flask application with mongoDB
 - Implemented CRUD operations
-# # Key features
+## Key features
 - Implemented caching to enhance the performance of CRUD operations
 - Tried to achieve secure, optimal and scalable solution.
 
-# # API Endpoinds
+## API Endpoinds
 
 - Create new user 
-HTTP Method POST
+(HTTP Method POST)
     ```bash
     url - http://127.0.0.1:5000/users/
     Expected data format - {
@@ -20,7 +20,7 @@ HTTP Method POST
     ```
 
 - Update user 
-HTTP Method PUT
+(HTTP Method PUT)
     ```bash
     url - http://127.0.0.1:5000/users/<id>
     Expected data format - {
@@ -32,26 +32,25 @@ HTTP Method PUT
     ```
 
 - Get user Details
-HTTP Method GET
+(HTTP Method GET)
     ```bash
     url - http://127.0.0.1:5000/users/<id>
     ```
 
 - Get All user names
-HTTP Method GET
+(HTTP Method GET)
     ```bash
     url - http://127.0.0.1:5000/users/
     ```
 
 - Remove user from database
-HTTP Method DELETE
+(HTTP Method DELETE)
     ```bash
     url - http://127.0.0.1:5000/users/<id>
     ```
 
 
 **Build and Run the Application:**
-
     ```bash
     docker-compose up --build
     ```
