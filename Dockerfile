@@ -4,7 +4,7 @@ WORKDIR /app
 
 COPY . /app
 
-RUN pip install Flask pymongo
+RUN pip install Flask pymongo flask_bcrypt
 
 EXPOSE 5000
 
